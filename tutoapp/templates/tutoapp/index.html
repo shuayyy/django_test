@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+<body>
+
+<div class="HEADER">
+<nav >
+  <h2> MY WEBSITE</h2>
+  <ul>
+  <li><a href="#">BROWSE</a></li>
+  <li> <a href="/contact/"> CONTACT</a>  </li>
+  <li><a href="#"></a>SIGNUP</li>
+  <li><a href="#"></a>LOGIN</li>
+  </ul>
+</nav>
+
+</div>
+
+<div class="Members">
+  <h3>Members</h3>
+  <ul>
+
+      <li> Mohamed Shuaib</li>
+      <li> SHUAIB</li>
+
+  </ul>
+  <img src="{{detail.image.url }}" alt="Image">
+</div>
+</body>
+
+</html>

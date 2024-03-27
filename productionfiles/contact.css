@@ -1,0 +1,47 @@
+body, .HEADER, .nav {
+    margin: 0;
+    padding: 0;
+}
+
+.HEADER {
+    font-style: bold;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100vw; /* Extend to the full viewport width */
+}
+
+.HEADER::before,
+.HEADER::after {
+    content: "";
+    display: block;
+    width: 100vw; /* Extend to the full viewport width */
+    height: 5px;
+    background-color: black;
+    position: absolute;
+}
+
+.HEADER::before {
+
+    top: 0;
+    left: 0; /* Ensure the line starts from the left edge */
+}
+
+.HEADER::after {
+    bottom: 0;
+    left: 0; /* Ensure the line starts from the left edge */
+}
+
+.nav {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-top: 370px; /* Adding some separation from the header */
+    width: 100vw; /* Extend to the full viewport width */
+}
+
+ul, li {
+    display: block;
+}
