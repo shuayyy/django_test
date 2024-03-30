@@ -23,6 +23,6 @@ def wdqd(request):
     members=Member.objects.all()
     details = Details.objects.all()
 
-    return render(request , 'tutoapp/contact.html',{'members' :members,
+    return render(request , 'tutoapp/wdqd.html',{'members' :members,
      'details':details,} 
      )

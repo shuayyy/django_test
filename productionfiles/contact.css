@@ -8,14 +8,14 @@ body, .HEADER, .nav {
     text-align: center;
     padding: 20px;
     position: relative;
-    width: 100vw; /* Extend to the full viewport width */
+    width: 100vw; 
 }
 
 .HEADER::before,
 .HEADER::after {
     content: "";
     display: block;
-    width: 100vw; /* Extend to the full viewport width */
+    width: 100vw;
     height: 5px;
     background-color: black;
     position: absolute;
@@ -24,12 +24,12 @@ body, .HEADER, .nav {
 .HEADER::before {
 
     top: 0;
-    left: 0; /* Ensure the line starts from the left edge */
+    left: 0; 
 }
 
 .HEADER::after {
     bottom: 0;
-    left: 0; /* Ensure the line starts from the left edge */
+    left: 0; 
 }
 
 .nav {
@@ -38,8 +38,8 @@ body, .HEADER, .nav {
     color: white;
     background-color: black;
     padding: 30px;
-    margin-top: 370px; /* Adding some separation from the header */
-    width: 100vw; /* Extend to the full viewport width */
+    margin-top: 370px; 
+    width: 100vw; 
 }
 
 ul, li {
